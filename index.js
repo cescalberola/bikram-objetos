@@ -3,22 +3,29 @@
 //Declaración
 
 //1.- Crea un objeto de nombre Coche que tenga las propiedades: marca, modelo, matricula
-
+let Coche = { "marca": '', "modelo": '', "matricula": '' };
 //2.- Crea un objeto de nombre Casa que tenga las propiedades: codPostal, calle, portal, piso
-
+let Casa = { "codPostal": '', "calle": '', "portal": '',"piso": '' };
 //3.- Crea un objeto de nombre FullStackDeveloper que tenga las propiedades: array lenguajes, array proyectos
-
+let FullStackDeveloper = { "lenguajes": [], "proyectos": [] };
 //4.- Crea un objeto de nombre Perro que tenga las propiedades: nombre, raza, color, edad, función ladrar (imprime por consola un ladrido), función popo (devuelve el valor: Math.random() * 3)
-
+let Perro = {"nombre": '', "raza": '',"color": '', "edad": '' }
+function ladrar() { 
+    console.log("¡Guau Guau!") }
+function popo() {
+        return Math.random() * 3
+    };
+    
 //Lectura de propiedades
 
 //5.- Dado un objeto de nombre Portatil obtén el valor de la propiedad marca con .marca guardándolo en la variable marcaPortatil
-
+let marcaPortatil = Portatil.marca;
 //6.- Dado un objeto de nombre Portatil obtén el valor de la propiedad marca con ["marca"] guardándolo en la variable marcaPortatil2
-
+let marcaPortatil2 = Portatil ["marca"];
 //7.- Dado un objeto de nombre Concierto obtén el valor de la propiedad array grupos guardándolo en la variable grupos
-
+let grupos = Concierto.grupos
 //8.- Dado un objeto de nombre Led obtén el valor de las propiedades rojo, verde y azul guardándolo en la variable array RGB[Rojo, Verde, Azul]
+let RGB = [Led.rojo, Led.verde, Led.azul];
 
 //Modificación de propiedades
 
